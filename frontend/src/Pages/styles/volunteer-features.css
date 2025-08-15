@@ -1,0 +1,153 @@
+.my-team-button {
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #495057;
+  font-size: 16px;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+}
+ 
+.my-team-button:hover {
+  background-color: #bbdefb;
+}
+ 
+.notification-bell {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 100;
+}
+ 
+.notification-count {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  min-width: 18px;
+  text-align: center;
+}
+ 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+ 
+.modal-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+ 
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+ 
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #6c757d;
+}
+ 
+.close-button:hover {
+  color: #000;
+}
+ 
+.team-details {
+  padding: 10px 0;
+}
+ 
+.team-details h4 {
+  color: #007bff;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+ 
+.team-details p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+ 
+.team-members {
+  margin-top: 20px;
+}
+ 
+.team-members h5 {
+  margin-bottom: 10px;
+  color: #495057;
+  font-size: 16px;
+}
+ 
+.team-members ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+.team-members li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f8f9fa;
+  font-size: 14px;
+}
+ 
+.request-item {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+ 
+.request-item h5 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+  font-size: 16px;
+}
+ 
+.request-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+ 
+.no-assignment {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+}
+ 
+.no-assignment p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+ 
+.no-assignment small {
+  font-size: 14px;
+  color: #868e96;
+}

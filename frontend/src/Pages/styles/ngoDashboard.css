@@ -1,0 +1,252 @@
+/* --- Container & Header --- */
+.ngo-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #e3eafc 0%, #f8fbff 100%);
+  min-height: 100vh;
+}
+
+.ngo-header {
+  background: linear-gradient(90deg, #0056b3 60%, #2196f3 100%);
+  color: white;
+  padding: 2rem 1rem;
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+/* --- Layout --- */
+.ngo-body {
+  display: flex;
+  min-height: calc(100vh - 110px);
+  gap: 0;
+}
+
+/* --- Sidebar --- */
+.ngo-sidebar {
+  width: 240px;
+  background: linear-gradient(135deg, #e3eafc 60%, #cce0ff 100%);
+  padding: 2.5rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: 2px 0 12px rgba(33,150,243,0.07);
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  min-height: 100%;
+}
+
+.ngo-sidebar button {
+  padding: 0.85rem 1.2rem;
+  font-size: 1.13rem;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(135deg, #2196f3, #64b5f6);
+  color: white;
+  border-radius: 22px;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+  margin-bottom: 2px;
+}
+
+.ngo-sidebar button:hover {
+  background: linear-gradient(135deg, #1565c0, #90caf9);
+  transform: scale(1.04);
+}
+
+.ngo-sidebar button:last-child {
+  margin-top: auto;
+  background: linear-gradient(135deg, #ff4444, #ff8a80);
+  color: white;
+  box-shadow: 0 2px 8px rgba(255,68,68,0.10);
+}
+
+.ngo-sidebar button:last-child:hover {
+  background: linear-gradient(135deg, #d32f2f, #ff8a80);
+}
+
+/* --- Main Content --- */
+.ngo-main {
+  flex: 1;
+  padding: 2rem 2.5rem;
+  overflow-x: auto;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ngo-main div {
+  width: 100%;
+}
+
+.section-title,
+.ngo-main h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1565c0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* --- Table --- */
+.ngo-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(33,150,243,0.07);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.ngo-table th,
+.ngo-table td {
+  border-bottom: 1px solid #e3eafc;
+  padding: 1rem 0.8rem;
+  text-align: left;
+}
+
+.ngo-table th {
+  background: #e3eafc;
+  font-weight: 700;
+  color: #1565c0;
+  font-size: 1.08rem;
+}
+
+.ngo-table tr:last-child td {
+  border-bottom: none;
+}
+
+.ngo-table td button {
+  background: linear-gradient(135deg, #2196f3, #64b5f6);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 7px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(33,150,243,0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.ngo-table td button:hover {
+  background: linear-gradient(135deg, #1565c0, #90caf9);
+  transform: scale(1.04);
+}
+
+/* --- Modal --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(33,150,243,0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 18px;
+  width: 340px;
+  box-shadow: 0 8px 32px rgba(33,150,243,0.13);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.modal h2 {
+  color: #1565c0;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.modal input {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #b3d1ff;
+  font-size: 1rem;
+  background: #f8fbff;
+  transition: border-color 0.2s;
+}
+
+.modal input:focus {
+  border-color: #2196f3;
+  outline: none;
+  background: #e3eafc;
+}
+
+.modal button {
+  background: linear-gradient(135deg, #2196f3, #64b5f6);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(33,150,243,0.08);
+  transition: background 0.2s, transform 0.2s;
+  margin-right: 8px;
+}
+
+.modal button:last-child {
+  background: #ccc;
+  color: #333;
+}
+
+.modal button:hover:not(:last-child) {
+  background: linear-gradient(135deg, #1565c0, #90caf9);
+  transform: scale(1.04);
+}
+
+.modal button:last-child:hover {
+  background: #bbb;
+}
+
+/* --- Responsive --- */
+@media (max-width: 900px) {
+  .ngo-body {
+    flex-direction: column;
+    height: auto;
+  }
+  .ngo-sidebar {
+    width: 100vw;
+    min-width: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 1.2rem 0.5rem;
+    flex-direction: row;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .ngo-main {
+    padding: 1rem 0.5rem;
+    align-items: stretch;
+  }
+  .ngo-table {
+    font-size: 0.95rem;
+  }
+  .modal {
+    width: 98vw;
+    padding: 18px 8px;
+    border-radius: 14px;
+  }
+}
