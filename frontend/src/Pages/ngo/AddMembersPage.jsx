@@ -73,7 +73,7 @@ function AddMembersPage() {
     <div className="add-members-page">
       <button
         className="ngo-back-btn"
-        onClick={() => navigate("/ngoDasboard")}
+        onClick={() => navigate("/ngoDashboard")}
       >
         Back
       </button>

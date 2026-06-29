@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 @Data
-@Table(name = "channel", schema="team1_2025")
+@Table(name = "channel", schema="resqconnect")
 public class ChannelModal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
     @Entity
-    @Table(name = "rescue_teams", schema = "team1_2025")
+    @Table(name = "rescue_teams", schema = "resqconnect")
     @Data
     @NoArgsConstructor
     @AllArgsConstructor

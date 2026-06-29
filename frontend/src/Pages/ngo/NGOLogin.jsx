@@ -26,7 +26,7 @@ function NGOLogin() {
             contactNo,
           };
           setCookie('ngoSession', JSON.stringify(ngoData), { expires: 2 });
-          navigate('/ngoDasboard');
+          navigate('/ngoDashboard');
         } else {
           setError('Login failed. Please check your credentials and try again.');
         }

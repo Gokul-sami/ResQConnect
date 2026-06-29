@@ -47,7 +47,7 @@ const router = createBrowserRouter([
     element: <NGOSignup />,
   },
   {
-    path: "/ngoDasboard",
+    path: "/ngoDashboard",
     element: <NgoDashboard/>
   },
   {

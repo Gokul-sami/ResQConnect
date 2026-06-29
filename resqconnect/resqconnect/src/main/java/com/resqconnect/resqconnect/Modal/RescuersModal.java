@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Data
-@Table(name = "users", schema = "team1_2025")
+@Table(name = "users", schema = "resqconnect")
 public class RescuersModal {
 
     @Id

@@ -40,6 +40,7 @@
   margin-top: 8px;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #334155;
 }
  
 .modal input,
@@ -50,6 +51,8 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  background-color: #ffffff;
+  color: #1f2937;
 }
  
 .modal button {
@@ -69,4 +72,14 @@
 .modal button:not(.cancel) {
   background-color: #007bff;
   color: white;
+}
+
+.modal input[type="file"]::file-selector-button,
+.modal input[type="file"]::-webkit-file-upload-button {
+  background-color: #e6f0ff;
+  color: #1f2937;
+  border: 1px solid #b3d1ff;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-right: 10px;
 }

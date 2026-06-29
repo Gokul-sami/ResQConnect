@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Data
-@Table(name = "ngo", schema="team1_2025")
+@Table(name = "ngo", schema="resqconnect")
 public class NgoModal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

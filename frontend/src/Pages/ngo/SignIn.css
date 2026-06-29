@@ -39,7 +39,7 @@
 .signin-form label {
   margin-bottom: 6px;
   font-weight: 500;
-  color: #444;
+  color: #334155;
 }
 
 .signin-form input {
@@ -50,6 +50,7 @@
   border-radius: 10px;
   font-size: 1rem;
   background: #f8fbff;
+  color: #1f2937;
   transition: border-color 0.2s;
 }
 
@@ -142,6 +143,7 @@
   border: 2px solid #2196f3;
   box-shadow: 0 4px 18px rgba(33,150,243,0.12);
   border-radius: 16px;
+  background: #ffffff;
 }
 
 .login-form.blue-theme-form h2 {
@@ -163,6 +165,20 @@
 
 .login-form.blue-theme-form button:hover {
   background: linear-gradient(135deg, #1565c0, #90caf9);
+}
+
+.login-form.blue-theme-form label {
+  color: #334155;
+}
+
+.login-form.blue-theme-form input {
+  background: #ffffff;
+  color: #1f2937;
+  border: 1.5px solid #cfdcf7;
+}
+
+.login-form.blue-theme-form input::placeholder {
+  color: #94a3b8;
 }
 
 .login-link a {

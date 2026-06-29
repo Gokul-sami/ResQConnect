@@ -111,7 +111,7 @@
 
 .welcome-header .tagline {
   font-size: 1.08rem;
-  color: #555;
+  color: #5b6472;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -208,12 +208,14 @@
   color: #0056b3;
 }
 
-.welcome-box p[style*="color: red"] {
+.welcome-error {
   margin: 0 0 6px 0;
   font-size: 0.92rem;
+  color: #b42318;
   background: #fff3f3;
+  border: 1px solid #ffd0d0;
   border-radius: 6px;
-  padding: 4px 0;
+  padding: 6px 10px;
 }
 
 @media (max-width: 900px) {

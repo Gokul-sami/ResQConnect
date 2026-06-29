@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 @Data
-@Table(name = "help_requests", schema = "team1_2025")
+@Table(name = "help_requests", schema = "resqconnect")
 public class RequestModal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
