@@ -32,12 +32,6 @@ Use the root diagram file below to understand the schema and table relationships
 
 - [ER_diagram (Crisis management).pdf](ER_diagram%20(Crisis%20management).pdf)
 
-If your Markdown viewer supports inline PDF preview, use this embed:
-
-<object data="ER_diagram%20(Crisis%20management).pdf" type="application/pdf" width="100%" height="600">
-  <p>Open the diagram here: <a href="ER_diagram%20(Crisis%20management).pdf">ER_diagram (Crisis management).pdf</a></p>
-</object>
-
 ## Prerequisites
 
 - Java 21
